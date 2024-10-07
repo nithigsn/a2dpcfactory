@@ -20,11 +20,10 @@ function HowItWorks() {
         </div>
 
         <div className='flex flex-col gap-4 h-full w-full'>
-
-
-          <div className='flex flex-col justify-between p-2 h-[205px] w-[371] bg-[#f7f7f7] rounded-md'>
+          {/* 1 */}
+          <div className='flex flex-col justify-between p-2 h-[205px] w-[371px] gap-y-8 bg-[#f7f7f7] rounded-md'>
             <div className='black-gra'>
-            <i className="fa-brands fa-searchengin text-white"></i>
+              <i className="fa-brands fa-searchengin text-white"></i>
             </div>
             <div>
               <p className='font-bold'>Requirement Analysis</p>
@@ -32,10 +31,10 @@ function HowItWorks() {
             </div>
           </div>
 
-          {/* Second */}
-          <div className='flex flex-col justify-between p-2 h-[205px] w-[371] bg-[#f7f7f7] rounded-md'>
+          {/* 2 */}
+          <div className='flex flex-col justify-between p-2 h-[205px] w-[371px] gap-y-8 bg-[#f7f7f7] rounded-md'>
             <div className='black-gra'>
-            <i className="fa-brands fa-searchengin text-white"></i>
+              <i className="fa-solid fa-microchip text-white"></i>
             </div>
             <div>
               <p className='font-bold'>Component Selection</p>
@@ -43,9 +42,10 @@ function HowItWorks() {
             </div>
           </div>
 
-          <div className='flex flex-col justify-between p-2 h-[205px] w-[371] bg-[#f7f7f7] rounded-md'>
+          {/* 3 */}
+          <div className='flex flex-col justify-between p-2 h-[205px] w-[371px] gap-y-8 bg-[#f7f7f7] rounded-md'>
             <div className='black-gra'>
-            <i className="fa-brands fa-searchengin text-white"></i>
+              <i class="fa-thin fa-screwdriver-wrench text-white"></i>
             </div>
             <div>
               <p className='font-bold'>Expert Assembly</p>
@@ -53,9 +53,10 @@ function HowItWorks() {
             </div>
           </div>
 
-          <div className='flex flex-col justify-between p-2 h-[205px] w-[371] bg-[#f7f7f7] rounded-md'>
+          {/* 4 */}
+          <div className='flex flex-col justify-between p-2 h-[205px] w-[371px] gap-y-8 bg-[#f7f7f7] rounded-md'>
             <div className='black-gra'>
-            <i className="fa-brands fa-searchengin text-white"></i>
+              <i className="fa-solid fa-text-width text-white"></i>
             </div>
             <div>
               <p className='font-bold'>High End Testing</p>
@@ -63,9 +64,11 @@ function HowItWorks() {
             </div>
           </div>
 
-          <div className='flex flex-col justify-between p-2 h-[205px] w-[371] bg-[#f7f7f7] rounded-md'>
+
+           {/*5  */}
+          <div className='flex flex-col justify-between p-2 h-[205px] w-[371px] gap-y-8 bg-[#f7f7f7] rounded-md'>
             <div className='black-gra'>
-            <i className="fa-brands fa-searchengin text-white"></i>
+            <i className="fa-solid fa-truck text-white"></i>
             </div>
             <div>
               <p className='font-bold'>Secure Delivery</p>
