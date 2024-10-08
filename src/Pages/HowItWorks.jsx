@@ -2,7 +2,7 @@ import React from 'react'
 
 function HowItWorks() {
   return (
-    <div className='h-[1543px] w-full flex  items-center flex-col text-black z-10 bg-white'>
+    <div className='h-[1243px] w-full flex  items-center flex-col text-black z-10 bg-white'>
 
       <div className='w-[95vw] h-screen flex flex-col items-center   '>
 
@@ -19,9 +19,9 @@ function HowItWorks() {
           <h1 className='text-[30px]'>How it works ?</h1>
         </div>
 
+         {/* 1 */}   
         <div className='flex flex-col gap-4 h-full w-full'>
-          {/* 1 */}
-          <div className='flex flex-col justify-between p-2 h-[205px] w-[371px] gap-y-8 bg-[#f7f7f7] rounded-md'>
+          <div className='flex flex-col justify-between p-2 h-[205px] w-full gap-y-8 bg-[#f7f7f7] rounded-md'>
             <div className='black-gra'>
               <i className="fa-brands fa-searchengin text-white"></i>
             </div>
@@ -32,7 +32,7 @@ function HowItWorks() {
           </div>
 
           {/* 2 */}
-          <div className='flex flex-col justify-between p-2 h-[205px] w-[371px] gap-y-8 bg-[#f7f7f7] rounded-md'>
+          <div className='flex flex-col justify-between p-2 h-[205px] w-full gap-y-8 bg-[#f7f7f7] rounded-md'>
             <div className='black-gra'>
               <i className="fa-solid fa-microchip text-white"></i>
             </div>
@@ -43,7 +43,7 @@ function HowItWorks() {
           </div>
 
           {/* 3 */}
-          <div className='flex flex-col justify-between p-2 h-[205px] w-[371px] gap-y-8 bg-[#f7f7f7] rounded-md'>
+          <div className='flex flex-col justify-between p-2 h-[205px] w-full gap-y-8 bg-[#f7f7f7] rounded-md'>
             <div className='black-gra'>
               <i class="fa-thin fa-screwdriver-wrench text-white"></i>
             </div>
@@ -54,7 +54,7 @@ function HowItWorks() {
           </div>
 
           {/* 4 */}
-          <div className='flex flex-col justify-between p-2 h-[205px] w-[371px] gap-y-8 bg-[#f7f7f7] rounded-md'>
+          <div className='flex flex-col justify-between p-2 h-[205px] w-full gap-y-8 bg-[#f7f7f7] rounded-md'>
             <div className='black-gra'>
               <i className="fa-solid fa-text-width text-white"></i>
             </div>
@@ -65,10 +65,10 @@ function HowItWorks() {
           </div>
 
 
-           {/*5  */}
-          <div className='flex flex-col justify-between p-2 h-[205px] w-[371px] gap-y-8 bg-[#f7f7f7] rounded-md'>
+          {/*5  */}
+          <div className='flex flex-col justify-between p-2 h-[205px] w-full gap-y-8 bg-[#f7f7f7] rounded-md'>
             <div className='black-gra'>
-            <i className="fa-solid fa-truck text-white"></i>
+              <i className="fa-solid fa-truck text-white"></i>
             </div>
             <div>
               <p className='font-bold'>Secure Delivery</p>
