@@ -1,22 +1,17 @@
-import React, { useState } from 'react'
+
+import Header from '../Components/Header';
 
 function HomePage() {
 
-  const [isOpen, setIsOpen] = useState(false);
+ 
 
   return (
     <div className='h-screen w-full mainbg flex  items-center flex-col'>
 
       <div className='w-[95vw] h-full flex flex-col items-center  '>
+        <Header/>
 
-        <header className='flex w-full justify-between p-1'>
-
-          <img src="https://res.cloudinary.com/doqdlneyl/image/upload/v1728283845/a2d_logo_m3djf5.png" alt="" className='size-12' />
-          <div className='size-[50px]  flex items-center justify-center rounded-[50%] bg-[#ffffff25]'>
-            <i className="fa-solid fa-bars text-white"></i>
-          </div>
-
-        </header>
+       
 
         <main className='flex flex-col items-center w-full '>
 
