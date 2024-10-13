@@ -19,6 +19,11 @@ body {
     background: linear-gradient(45deg, rgba(196, 204, 204, 1) 0%, rgba(255, 253, 248, 1) 100%);
 }
 
+.bgimg1{
+    background-image: url(https://res.cloudinary.com/doqdlneyl/image/upload/c_crop,ar_1:1/v1728491388/pc_1_wnehes.png);
+    background-size: cover;
+}
+
 .black-gra {
     display: flex;
     justify-content: center;
