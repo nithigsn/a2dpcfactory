@@ -46,7 +46,7 @@ const Builds = () => {
           <p>From &#8377; 80,0000 </p>
         </div>
         <div className='w-full h-[300px] rounded-md '>
-          <img src="https://res.cloudinary.com/doqdlneyl/image/upload/v1728491390/680cdec9654e8deb1af79079cb2ce12e_lsemrr.png" alt="" className='rounded-md' />
+          <img src="https://res.cloudinary.com/doqdlneyl/image/upload/c_crop,ar_1:1/v1728801195/pc-gaming-computer-pc-cases-technology-wallpaper-thumb_aetwtq.jpg" alt="" className='rounded-md' />
         </div>
       </div>
 
@@ -57,7 +57,7 @@ const Builds = () => {
           <p>From &#8377; 1,50,0000 </p>
         </div>
         <div className='w-full h-[300px] rounded-md '>
-          <img src="https://res.cloudinary.com/doqdlneyl/image/upload/v1728491462/dab82605b13626017d37a34d7203ad5d_ncazbe.png" alt="" className='rounded-md' />
+          <img src="https://res.cloudinary.com/doqdlneyl/image/upload/v1728491462/dab82605b13626017d37a34d7203ad5d_ncazbe.png" alt="" className='rounded-md bg-contain' />
         </div>
       </div>
 
